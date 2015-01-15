@@ -26,7 +26,6 @@
 		709669B41971C72300E3ECF7 /* downloadAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = 709668BC1971C72200E3ECF7 /* downloadAttributes.m */; };
 		709669B51971C72300E3ECF7 /* DownloadUrlToDiskOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 709668BE1971C72200E3ECF7 /* DownloadUrlToDiskOperation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		709669B61971C72300E3ECF7 /* handleDownloads.m in Sources */ = {isa = PBXBuildFile; fileRef = 709668C01971C72200E3ECF7 /* handleDownloads.m */; };
-		709669B71971C72300E3ECF7 /* BaseControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 709668C31971C72200E3ECF7 /* BaseControllerViewController.m */; };
 		709669C01971C72300E3ECF7 /* navigationCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 709668D31971C72200E3ECF7 /* navigationCell.m */; };
 		709669C11971C72300E3ECF7 /* navigationCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 709668D41971C72200E3ECF7 /* navigationCell.xib */; };
 		709669C21971C72300E3ECF7 /* NavigationMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 709668D61971C72200E3ECF7 /* NavigationMenuViewController.m */; };
@@ -146,6 +145,23 @@
 		7099A8BC1971DA050054503B /* WelcomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7099A8B91971DA050054503B /* WelcomeViewController.m */; };
 		7099A8BD1971DA050054503B /* WelcomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7099A8BA1971DA050054503B /* WelcomeViewController.xib */; };
 		7099A8BE1971DA050054503B /* WelcomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7099A8BA1971DA050054503B /* WelcomeViewController.xib */; };
+		7099A8E6197273DB0054503B /* FoodGridViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7099A8E4197273DB0054503B /* FoodGridViewController.m */; };
+		7099A8E7197273DB0054503B /* FoodGridViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7099A8E5197273DB0054503B /* FoodGridViewController.xib */; };
+		7099A8EB197274330054503B /* FoodListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7099A8E9197274330054503B /* FoodListViewController.m */; };
+		7099A8EC197274330054503B /* FoodListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7099A8EA197274330054503B /* FoodListViewController.xib */; };
+		7099A8F0197274800054503B /* FoodDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7099A8EE197274800054503B /* FoodDetailsViewController.m */; };
+		7099A8F1197274800054503B /* FoodDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7099A8EF197274800054503B /* FoodDetailsViewController.xib */; };
+		7099A8F5197274A50054503B /* CheckOutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7099A8F3197274A50054503B /* CheckOutViewController.m */; };
+		7099A8F6197274A50054503B /* CheckOutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7099A8F4197274A50054503B /* CheckOutViewController.xib */; };
+		7099A8F91972750C0054503B /* BaseControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7099A8F81972750C0054503B /* BaseControllerViewController.m */; };
+		7099A9051973298A0054503B /* ReviewsDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7099A9041973298A0054503B /* ReviewsDataController.m */; };
+		7099A91019733AF30054503B /* RestaurantDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7099A90F19733AF30054503B /* RestaurantDataController.m */; };
+		7099A91319733D1A0054503B /* dbHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 7099A91219733D1A0054503B /* dbHandler.m */; };
+		7099A91619733D3E0054503B /* modifyDB.m in Sources */ = {isa = PBXBuildFile; fileRef = 7099A91519733D3E0054503B /* modifyDB.m */; };
+		7099A91919733D510054503B /* addToDB.m in Sources */ = {isa = PBXBuildFile; fileRef = 7099A91819733D510054503B /* addToDB.m */; };
+		7099A91E197341D00054503B /* DataFromServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7099A91B197341D00054503B /* DataFromServer.m */; };
+		7099A91F197341D00054503B /* parseDeltaData.m in Sources */ = {isa = PBXBuildFile; fileRef = 7099A91D197341D00054503B /* parseDeltaData.m */; };
+		7099A922197341EC0054503B /* FoodDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7099A921197341EC0054503B /* FoodDataController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -184,8 +200,6 @@
 		709668BE1971C72200E3ECF7 /* DownloadUrlToDiskOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownloadUrlToDiskOperation.m; sourceTree = "<group>"; };
 		709668BF1971C72200E3ECF7 /* handleDownloads.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = handleDownloads.h; sourceTree = "<group>"; };
 		709668C01971C72200E3ECF7 /* handleDownloads.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = handleDownloads.m; sourceTree = "<group>"; };
-		709668C21971C72200E3ECF7 /* BaseControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseControllerViewController.h; sourceTree = "<group>"; };
-		709668C31971C72200E3ECF7 /* BaseControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseControllerViewController.m; sourceTree = "<group>"; };
 		709668D21971C72200E3ECF7 /* navigationCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = navigationCell.h; sourceTree = "<group>"; };
 		709668D31971C72200E3ECF7 /* navigationCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = navigationCell.m; sourceTree = "<group>"; };
 		709668D41971C72200E3ECF7 /* navigationCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = navigationCell.xib; sourceTree = "<group>"; };
@@ -330,6 +344,36 @@
 		7099A8B81971DA050054503B /* WelcomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WelcomeViewController.h; sourceTree = "<group>"; };
 		7099A8B91971DA050054503B /* WelcomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WelcomeViewController.m; sourceTree = "<group>"; };
 		7099A8BA1971DA050054503B /* WelcomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WelcomeViewController.xib; sourceTree = "<group>"; };
+		7099A8E3197273DA0054503B /* FoodGridViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodGridViewController.h; sourceTree = "<group>"; };
+		7099A8E4197273DB0054503B /* FoodGridViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodGridViewController.m; sourceTree = "<group>"; };
+		7099A8E5197273DB0054503B /* FoodGridViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FoodGridViewController.xib; sourceTree = "<group>"; };
+		7099A8E8197274330054503B /* FoodListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FoodListViewController.h; path = FoodList/FoodListViewController.h; sourceTree = "<group>"; };
+		7099A8E9197274330054503B /* FoodListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FoodListViewController.m; path = FoodList/FoodListViewController.m; sourceTree = "<group>"; };
+		7099A8EA197274330054503B /* FoodListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FoodListViewController.xib; path = FoodList/FoodListViewController.xib; sourceTree = "<group>"; };
+		7099A8ED197274800054503B /* FoodDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FoodDetailsViewController.h; path = FoodDetails/FoodDetailsViewController.h; sourceTree = "<group>"; };
+		7099A8EE197274800054503B /* FoodDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FoodDetailsViewController.m; path = FoodDetails/FoodDetailsViewController.m; sourceTree = "<group>"; };
+		7099A8EF197274800054503B /* FoodDetailsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FoodDetailsViewController.xib; path = FoodDetails/FoodDetailsViewController.xib; sourceTree = "<group>"; };
+		7099A8F2197274A50054503B /* CheckOutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckOutViewController.h; sourceTree = "<group>"; };
+		7099A8F3197274A50054503B /* CheckOutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckOutViewController.m; sourceTree = "<group>"; };
+		7099A8F4197274A50054503B /* CheckOutViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CheckOutViewController.xib; sourceTree = "<group>"; };
+		7099A8F71972750C0054503B /* BaseControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseControllerViewController.h; path = Food/classes/iPad/Base/BaseControllerViewController.h; sourceTree = SOURCE_ROOT; };
+		7099A8F81972750C0054503B /* BaseControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseControllerViewController.m; path = Food/classes/iPad/Base/BaseControllerViewController.m; sourceTree = SOURCE_ROOT; };
+		7099A9031973298A0054503B /* ReviewsDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ReviewsDataController.h; path = DataControllers/Reviews/ReviewsDataController.h; sourceTree = "<group>"; };
+		7099A9041973298A0054503B /* ReviewsDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ReviewsDataController.m; path = DataControllers/Reviews/ReviewsDataController.m; sourceTree = "<group>"; };
+		7099A90E19733AF30054503B /* RestaurantDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RestaurantDataController.h; path = DataControllers/Restaurant/RestaurantDataController.h; sourceTree = "<group>"; };
+		7099A90F19733AF30054503B /* RestaurantDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RestaurantDataController.m; path = DataControllers/Restaurant/RestaurantDataController.m; sourceTree = "<group>"; };
+		7099A91119733D1A0054503B /* dbHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dbHandler.h; sourceTree = "<group>"; };
+		7099A91219733D1A0054503B /* dbHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dbHandler.m; sourceTree = "<group>"; };
+		7099A91419733D3E0054503B /* modifyDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = modifyDB.h; sourceTree = "<group>"; };
+		7099A91519733D3E0054503B /* modifyDB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = modifyDB.m; sourceTree = "<group>"; };
+		7099A91719733D510054503B /* addToDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = addToDB.h; sourceTree = "<group>"; };
+		7099A91819733D510054503B /* addToDB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = addToDB.m; sourceTree = "<group>"; };
+		7099A91A197341D00054503B /* DataFromServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DataFromServer.h; path = DataControllers/Delta/DataFromServer.h; sourceTree = "<group>"; };
+		7099A91B197341D00054503B /* DataFromServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DataFromServer.m; path = DataControllers/Delta/DataFromServer.m; sourceTree = "<group>"; };
+		7099A91C197341D00054503B /* parseDeltaData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = parseDeltaData.h; path = DataControllers/Delta/parseDeltaData.h; sourceTree = "<group>"; };
+		7099A91D197341D00054503B /* parseDeltaData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = parseDeltaData.m; path = DataControllers/Delta/parseDeltaData.m; sourceTree = "<group>"; };
+		7099A920197341EC0054503B /* FoodDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FoodDataController.h; path = DataControllers/Food/FoodDataController.h; sourceTree = "<group>"; };
+		7099A921197341EC0054503B /* FoodDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FoodDataController.m; path = DataControllers/Food/FoodDataController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -429,10 +473,16 @@
 		7096687B1971C72200E3ECF7 /* iPad */ = {
 			isa = PBXGroup;
 			children = (
+				7099A8FD1973150C0054503B /* DataControllers */,
+				7099A8DB19726F5B0054503B /* CheckOut */,
+				7099A8DF19726F5B0054503B /* Filter */,
+				7099A8E019726F5B0054503B /* FoodGrid */,
+				7099A8C5197267930054503B /* FoodDetails */,
+				7099A8BF197266F40054503B /* FoodList */,
 				709668991971C72200E3ECF7 /* circularprogressview */,
 				7096689C1971C72200E3ECF7 /* database */,
 				709668BA1971C72200E3ECF7 /* downloadfile */,
-				709668C11971C72200E3ECF7 /* Home */,
+				709668C11971C72200E3ECF7 /* Base */,
 				709668D11971C72200E3ECF7 /* NavigationMenu */,
 				709668D81971C72200E3ECF7 /* network */,
 				709668E61971C72200E3ECF7 /* Notifications */,
@@ -458,6 +508,12 @@
 		7096689C1971C72200E3ECF7 /* database */ = {
 			isa = PBXGroup;
 			children = (
+				7099A91119733D1A0054503B /* dbHandler.h */,
+				7099A91219733D1A0054503B /* dbHandler.m */,
+				7099A91419733D3E0054503B /* modifyDB.h */,
+				7099A91519733D3E0054503B /* modifyDB.m */,
+				7099A91719733D510054503B /* addToDB.h */,
+				7099A91819733D510054503B /* addToDB.m */,
 			);
 			path = database;
 			sourceTree = "<group>";
@@ -475,12 +531,13 @@
 			path = downloadfile;
 			sourceTree = "<group>";
 		};
-		709668C11971C72200E3ECF7 /* Home */ = {
+		709668C11971C72200E3ECF7 /* Base */ = {
 			isa = PBXGroup;
 			children = (
-				709668C21971C72200E3ECF7 /* BaseControllerViewController.h */,
-				709668C31971C72200E3ECF7 /* BaseControllerViewController.m */,
+				7099A8F71972750C0054503B /* BaseControllerViewController.h */,
+				7099A8F81972750C0054503B /* BaseControllerViewController.m */,
 			);
+			name = Base;
 			path = Home;
 			sourceTree = "<group>";
 		};
@@ -755,6 +812,102 @@
 			path = Welcome;
 			sourceTree = "<group>";
 		};
+		7099A8BF197266F40054503B /* FoodList */ = {
+			isa = PBXGroup;
+			children = (
+				7099A8E8197274330054503B /* FoodListViewController.h */,
+				7099A8E9197274330054503B /* FoodListViewController.m */,
+				7099A8EA197274330054503B /* FoodListViewController.xib */,
+			);
+			name = FoodList;
+			sourceTree = "<group>";
+		};
+		7099A8C5197267930054503B /* FoodDetails */ = {
+			isa = PBXGroup;
+			children = (
+				7099A8ED197274800054503B /* FoodDetailsViewController.h */,
+				7099A8EE197274800054503B /* FoodDetailsViewController.m */,
+				7099A8EF197274800054503B /* FoodDetailsViewController.xib */,
+			);
+			name = FoodDetails;
+			sourceTree = "<group>";
+		};
+		7099A8DB19726F5B0054503B /* CheckOut */ = {
+			isa = PBXGroup;
+			children = (
+				7099A8F2197274A50054503B /* CheckOutViewController.h */,
+				7099A8F3197274A50054503B /* CheckOutViewController.m */,
+				7099A8F4197274A50054503B /* CheckOutViewController.xib */,
+			);
+			path = CheckOut;
+			sourceTree = "<group>";
+		};
+		7099A8DF19726F5B0054503B /* Filter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Filter;
+			sourceTree = "<group>";
+		};
+		7099A8E019726F5B0054503B /* FoodGrid */ = {
+			isa = PBXGroup;
+			children = (
+				7099A8E3197273DA0054503B /* FoodGridViewController.h */,
+				7099A8E4197273DB0054503B /* FoodGridViewController.m */,
+				7099A8E5197273DB0054503B /* FoodGridViewController.xib */,
+			);
+			path = FoodGrid;
+			sourceTree = "<group>";
+		};
+		7099A8FD1973150C0054503B /* DataControllers */ = {
+			isa = PBXGroup;
+			children = (
+				7099A90D19733A4D0054503B /* Restaurant */,
+				7099A906197338FB0054503B /* Delta */,
+				7099A902197329430054503B /* Reviews */,
+				7099A901197315830054503B /* Food */,
+			);
+			name = DataControllers;
+			sourceTree = "<group>";
+		};
+		7099A901197315830054503B /* Food */ = {
+			isa = PBXGroup;
+			children = (
+				7099A920197341EC0054503B /* FoodDataController.h */,
+				7099A921197341EC0054503B /* FoodDataController.m */,
+			);
+			name = Food;
+			sourceTree = "<group>";
+		};
+		7099A902197329430054503B /* Reviews */ = {
+			isa = PBXGroup;
+			children = (
+				7099A9031973298A0054503B /* ReviewsDataController.h */,
+				7099A9041973298A0054503B /* ReviewsDataController.m */,
+			);
+			name = Reviews;
+			sourceTree = "<group>";
+		};
+		7099A906197338FB0054503B /* Delta */ = {
+			isa = PBXGroup;
+			children = (
+				7099A91A197341D00054503B /* DataFromServer.h */,
+				7099A91B197341D00054503B /* DataFromServer.m */,
+				7099A91C197341D00054503B /* parseDeltaData.h */,
+				7099A91D197341D00054503B /* parseDeltaData.m */,
+			);
+			name = Delta;
+			sourceTree = "<group>";
+		};
+		7099A90D19733A4D0054503B /* Restaurant */ = {
+			isa = PBXGroup;
+			children = (
+				7099A90E19733AF30054503B /* RestaurantDataController.h */,
+				7099A90F19733AF30054503B /* RestaurantDataController.m */,
+			);
+			name = Restaurant;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -843,6 +996,7 @@
 				709669F11971C72300E3ECF7 /* KeyNote-Icon.png in Resources */,
 				709669FB1971C72300E3ECF7 /* reminderIcon.png in Resources */,
 				709669D61971C72300E3ECF7 /* agenda.jpeg in Resources */,
+				7099A8E7197273DB0054503B /* FoodGridViewController.xib in Resources */,
 				709669F01971C72300E3ECF7 /* keyNote(30x30).png in Resources */,
 				70966A051971C72300E3ECF7 /* test.png in Resources */,
 				70966A2C1971C72300E3ECF7 /* Schneider.png in Resources */,
@@ -866,6 +1020,7 @@
 				70966A281971C72300E3ECF7 /* welcome_icon_active.png in Resources */,
 				709669E21971C72300E3ECF7 /* splash@2x.png in Resources */,
 				70966A1B1971C72300E3ECF7 /* massaging-lp-icon_active.png in Resources */,
+				7099A8F1197274800054503B /* FoodDetailsViewController.xib in Resources */,
 				70966A131971C72300E3ECF7 /* gallery-lp-icon.png in Resources */,
 				709669F31971C72300E3ECF7 /* logout.png in Resources */,
 				70966A2E1971C72300E3ECF7 /* test.jpeg in Resources */,
@@ -900,6 +1055,8 @@
 				709669EF1971C72300E3ECF7 /* floorPlan.png in Resources */,
 				709669FD1971C72300E3ECF7 /* sessionAlert-Inactive.png in Resources */,
 				709669EC1971C72300E3ECF7 /* Feedback(30x30).png in Resources */,
+				7099A8EC197274330054503B /* FoodListViewController.xib in Resources */,
+				7099A8F6197274A50054503B /* CheckOutViewController.xib in Resources */,
 				70966A041971C72300E3ECF7 /* test-44.png in Resources */,
 				70966A231971C72300E3ECF7 /* polls-lp-icon_active.png in Resources */,
 				709669F21971C72300E3ECF7 /* LocationIcon.png in Resources */,
@@ -946,14 +1103,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				70966A2F1971C72300E3ECF7 /* SplashViewController.m in Sources */,
+				7099A8F0197274800054503B /* FoodDetailsViewController.m in Sources */,
+				7099A91E197341D00054503B /* DataFromServer.m in Sources */,
+				7099A91619733D3E0054503B /* modifyDB.m in Sources */,
 				70966A3E1971C72300E3ECF7 /* PdfViewController.m in Sources */,
+				7099A8F91972750C0054503B /* BaseControllerViewController.m in Sources */,
 				70966A371971C72300E3ECF7 /* iCarousel.m in Sources */,
+				7099A9051973298A0054503B /* ReviewsDataController.m in Sources */,
 				70966A381971C72300E3ECF7 /* NSObject+SBJSON.m in Sources */,
+				7099A8E6197273DB0054503B /* FoodGridViewController.m in Sources */,
 				70966A401971C72300E3ECF7 /* SwipeView.m in Sources */,
+				7099A91319733D1A0054503B /* dbHandler.m in Sources */,
 				7099A8BB1971DA050054503B /* WelcomeViewController.m in Sources */,
 				709669B41971C72300E3ECF7 /* downloadAttributes.m in Sources */,
+				7099A91919733D510054503B /* addToDB.m in Sources */,
 				709669C41971C72300E3ECF7 /* Reachability.m in Sources */,
 				709669A31971C72300E3ECF7 /* FFCircularProgressView.m in Sources */,
+				7099A922197341EC0054503B /* FoodDataController.m in Sources */,
 				709669C51971C72300E3ECF7 /* RequestResponse.m in Sources */,
 				70966A341971C72300E3ECF7 /* zip.c in Sources */,
 				70966A421971C72300E3ECF7 /* XYPieChart.m in Sources */,
@@ -961,17 +1127,20 @@
 				70966A3C1971C72300E3ECF7 /* SBJsonParser.m in Sources */,
 				70966A3D1971C72300E3ECF7 /* SBJsonWriter.m in Sources */,
 				70966A311971C72300E3ECF7 /* ioapi.c in Sources */,
-				709669B71971C72300E3ECF7 /* BaseControllerViewController.m in Sources */,
 				709669B51971C72300E3ECF7 /* DownloadUrlToDiskOperation.m in Sources */,
+				7099A91F197341D00054503B /* parseDeltaData.m in Sources */,
 				709668761971C70000E3ECF7 /* main.m in Sources */,
 				70966A331971C72300E3ECF7 /* unzip.c in Sources */,
 				709669B61971C72300E3ECF7 /* handleDownloads.m in Sources */,
 				70966A3B1971C72300E3ECF7 /* SBJsonBase.m in Sources */,
 				70966A351971C72300E3ECF7 /* SSZipArchive.m in Sources */,
 				709668711971C6D700E3ECF7 /* AppDelegate.m in Sources */,
+				7099A8F5197274A50054503B /* CheckOutViewController.m in Sources */,
 				70966A411971C72300E3ECF7 /* UIColor+ColorModule.m in Sources */,
 				70966A321971C72300E3ECF7 /* mztools.c in Sources */,
+				7099A91019733AF30054503B /* RestaurantDataController.m in Sources */,
 				70966A3A1971C72300E3ECF7 /* SBJSON.m in Sources */,
+				7099A8EB197274330054503B /* FoodListViewController.m in Sources */,
 				709669C21971C72300E3ECF7 /* NavigationMenuViewController.m in Sources */,
 				70966A391971C72300E3ECF7 /* NSString+SBJSON.m in Sources */,
 				70966A361971C72300E3ECF7 /* SWRevealViewController.m in Sources */,

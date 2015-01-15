@@ -3,7 +3,7 @@
 //  Food
 //
 //  Created by MDR on 13/07/14.
-//  Copyright (c) 2014 Pradeepkumargm. All rights reserved.
+//  Copyright (c) 2014 Dileep Mettu. All rights reserved.
 //
 
 #import "WelcomeViewController.h"

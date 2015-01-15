@@ -5,36 +5,36 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>BCB495CE-103A-417D-96C6-0D0F1172D265</string>
+	<string>E7F4C43F-4F1E-426F-B10F-07E2CC1D009D</string>
 	<key>IDESourceControlProjectName</key>
 	<string>Food</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>FD1D31AF-6AAF-4A75-A12A-4DDDD99D5F1C</key>
-		<string>ssh://teamforge.schneider-electric.com:29418/ios.git</string>
+		<key>58BC3FEB2183E9678CFCF9FB5C6FC5ECFB969E3B</key>
+		<string>https://github.com/dileepmsse/feedme.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>Food.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>FD1D31AF-6AAF-4A75-A12A-4DDDD99D5F1C</key>
+		<key>58BC3FEB2183E9678CFCF9FB5C6FC5ECFB969E3B</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>ssh://teamforge.schneider-electric.com:29418/ios.git</string>
+	<string>https://github.com/dileepmsse/feedme.git</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>FD1D31AF-6AAF-4A75-A12A-4DDDD99D5F1C</string>
+	<string>58BC3FEB2183E9678CFCF9FB5C6FC5ECFB969E3B</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>FD1D31AF-6AAF-4A75-A12A-4DDDD99D5F1C</string>
+			<string>58BC3FEB2183E9678CFCF9FB5C6FC5ECFB969E3B</string>
 			<key>IDESourceControlWCCName</key>
-			<string>2nd_confApp</string>
+			<string>feedme</string>
 		</dict>
 	</array>
 </dict>

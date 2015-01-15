@@ -2,7 +2,7 @@
 //  UIColor+ColorModule.m
 //  ConfApp
 //
-//  Created by Dileep Mettu on 5/15/14.
+//  Created by Dileep Mettu on 7/14/2014.
 //  Copyright (c) 2014 Dileep Mettu. All rights reserved.
 //
 

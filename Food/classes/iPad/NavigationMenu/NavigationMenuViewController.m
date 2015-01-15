@@ -2,7 +2,7 @@
 //  NavigationMenuViewController.m
 //  ConfApp
 //
-//  Created by Dileep Mettu on 4/16/14.
+//  Created by Dileep Mettu on 7/13/2014.
 //  Copyright (c) 2014 Dileep Mettu. All rights reserved.
 //
 
@@ -11,6 +11,8 @@
 #import "WelcomeViewController.h"
 #import "navigationCell.h"
 #import "AppDelegate.h"
+#import "FoodGridViewController.h"
+#import "FoodListViewController.h"
 @interface NavigationMenuViewController ()
 
 @end
@@ -190,7 +192,7 @@
 	if (row == 0)
 	{
          NSLog(@"x- %f y - %f w - %f h - %f",cell.frame.origin.x,cell.frame.origin.y,cell.frame.size.width,cell.frame.size.height);
-		cell.menuItemTitle.text = @"Welcome";
+		cell.menuItemTitle.text = @"Indian";
         cell.menuItemImage.image=[UIImage imageNamed:@"menuWelcome"];
         
 //        if (selectedIndex == row) {
@@ -205,7 +207,7 @@
 	}
 	else if (row == 1)
 	{
-        cell.menuItemImage.image=[UIImage imageNamed:@"menuAgenda"];
+        cell.menuItemImage.image=[UIImage imageNamed:@"Continental"];
 		cell.menuItemTitle.text= @"Agenda";
         
         
@@ -221,7 +223,7 @@
 	}
 	else if (row == 2)
 	{
-		cell.menuItemTitle.text = @"Attendees";
+		cell.menuItemTitle.text = @"Chineese";
         
         cell.menuItemImage.image=[UIImage imageNamed:@"menuAttendees"];
 //        if (selectedIndex == row) {
@@ -239,7 +241,7 @@
 	}
     else if (row == 3)
 	{
-		cell.menuItemTitle.text = @"Notes";
+		cell.menuItemTitle.text = @"Thai";
         cell.menuItemImage.image=[UIImage imageNamed:@"menuNotes"];
 //        if (selectedIndex == row) {
 //         //   thumbnail = [UIImage imageNamed:@"mynotes-lp-icon_active.png"];
@@ -256,7 +258,7 @@
 	}
     else if (row == 4)
 	{
-		cell.menuItemTitle.text= @"Polling";
+		cell.menuItemTitle.text= @"Beverages";
          cell.menuItemImage.image=[UIImage imageNamed:@"menuPolling"];
         if (selectedIndex == row) {
          //   thumbnail = [UIImage imageNamed:@"polls-lp-icon_active.png"];
@@ -301,17 +303,19 @@
     SWRevealViewController *revealController = self.revealViewController;
     AppDelegate *appDelegate = (AppDelegate *)[[UIApplication sharedApplication] delegate];
     UIViewController *frontViewController = nil;
+    FoodGridViewController *gridViewController = [[FoodGridViewController alloc] init];
     BOOL isDuplicate = NO;
     switch (indexPath.row+1) {
         case 1:{
-            if([revealController.frontViewController isKindOfClass:[WelcomeViewController class]])
+            if([revealController.frontViewController isKindOfClass:[FoodGridViewController class]])
             {
                 isDuplicate = YES;
                 break;
             }
             
-            WelcomeViewController *controller = [[WelcomeViewController alloc] init];
-            frontViewController = controller;
+            //WelcomeViewController *controller = [[WelcomeViewController alloc] init];
+            
+            frontViewController = gridViewController;
         }
             break;
      
@@ -327,6 +331,7 @@
     }
     selectedIndex = indexPath.row;
     [self.featureListTable reloadData];
+    [gridViewController setUpGridData:selectedIndex];
     [revealController setFrontViewPosition:FrontViewPositionLeft animated:YES];
     
 }

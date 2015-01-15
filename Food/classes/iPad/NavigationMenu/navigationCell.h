@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <QuartzCore/QuartzCore.h>
+#import <CoreGraphics/CoreGraphics.h>
 
 @interface navigationCell : UITableViewCell
 @property (strong, nonatomic) IBOutlet UIImageView *menuItemImage;
 @property (strong, nonatomic) IBOutlet UILabel *menuItemTitle;
-
+@property (strong, nonatomic) UIFont *menuItemsFont;
 @end

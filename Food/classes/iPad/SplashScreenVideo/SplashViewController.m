@@ -2,7 +2,7 @@
 //  SplashViewController.m
 //  ConfApp
 //
-//  Created by Dileep Mettu on 7/3/14.
+//  Created by Dileep Mettu on 7/13/2014.
 //  Copyright (c) 2014 Dileep Mettu. All rights reserved.
 //
 
@@ -38,8 +38,9 @@
     
 	// Do any additional setup after loading the view, typically from a nib.
     SWRevealViewController *revealController = self.revealViewController;
-    WelcomeViewController *controller=[WelcomeViewController new];
-    [revealController setFrontViewController:controller animated:NO];
+    WelcomeViewController *controller=[[WelcomeViewController alloc] init];
+    //[revealController pushFrontViewController:controller animated:YES];
+    [revealController setFrontViewController:controller animated:YES];
 }
 -(void)didEnterForeground
 {
