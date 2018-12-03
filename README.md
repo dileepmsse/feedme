@@ -1,4 +1,4 @@
 feedme
 ======
 
-crap
+App for restuarant ordering
